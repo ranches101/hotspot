@@ -140,7 +140,6 @@ date_default_timezone_set($_SESSION['timezone']);
 				$API->comm("/ip/hotspot/user/add", array(
 					"server" => "$server",
 					"name" => "$u[$i]",
-					"password" => "$p[$i]",
 					"profile" => "$profile",
 					"limit-uptime" => "$timelimit",
 					"limit-bytes-total" => "$datalimit",
@@ -212,7 +211,6 @@ date_default_timezone_set($_SESSION['timezone']);
 				$API->comm("/ip/hotspot/user/add", array(
 					"server" => "$server",
 					"name" => "$u[$i]",
-					"password" => "$u[$i]",
 					"profile" => "$profile",
 					"limit-uptime" => "$timelimit",
 					"limit-bytes-total" => "$datalimit",
